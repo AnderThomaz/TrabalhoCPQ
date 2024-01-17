@@ -74,12 +74,65 @@ i {
 
 
 
+i > label {
+    display: inline-block;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color:#002c5a ;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: -5px;
+    transform: translateY(-2px);
+
+    padding-bottom: 9px;
+    
+    
+    
+}
+    i > input#inome[type=text] {
+
+    
+    font-size: 1.2em;
+    width: calc(100% - (94px));
+    
+    padding: 7px;
+    background-color:#CCE5FF ;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    
+}
 
 
 main {
     background-color: #002c5a;
 }
+section > h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+form > label {
 
+    font-size: 1.2em;
+    padding-left: 10px;
+    
+    
+    
+}
+
+
+form > input[type=text] {
+
+    display: inline-block;
+    font-size: 1.2em;
+    width: 98%;
+    margin-bottom: 10px;
+    padding: 7px;
+    background-color:#CCE5FF ;
+    border: none;
+    border-radius: 10px;
+    
+}
 section {
     margin: auto;
     width: 80vh;

@@ -1,6 +1,6 @@
 section > h2 {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 
@@ -18,8 +18,8 @@ form > input[type=tel] {
 
     display:block;
     font-size: 1.1em;
-    width: 96%;
-    margin: 6px;
+    width: 98%;
+    margin: auto;
     margin-top: 5px;
     padding: 7px;
     background-color:#e7f2ff;
@@ -45,7 +45,8 @@ form > input#iconta[type=radio] {
 }
 
 i {
-    
+    margin-top:20px;
+     margin-top:20px;
     font-style: normal;
     
 }
@@ -65,8 +66,8 @@ form > input[type=date] {
     
     display:block;
     font-size: 1.1em;
-    width: 50%;
-    margin: 6px;
+    width: 150px;
+    margin: 4px;
     margin-top: 5px;
     padding: 7px;
     background-color:#e7f2ff;
@@ -79,8 +80,8 @@ form > input[type=email] {
 
     display:block;
     font-size: 1.1em;
-    width: 96%;
-    margin: 6px;
+    width: 98%;
+    margin: auto;
     margin-top: 5px;
     padding: 7px;
     background-color:#e7f2ff;
@@ -92,8 +93,8 @@ form > input[type=number] {
 
     display:block;
     font-size: 1.1em;
-    width: 96%;
-    margin: 6px;
+    width: 98%;
+    margin: auto;
     margin-top: 5px;
     padding: 7px;
     background-color:#e7f2ff;
@@ -105,8 +106,8 @@ form > input[type=text] {
 
     display:block;
     font-size: 1.1em;
-    width: 96%;
-    margin: 6px;
+    width: 98%;
+    margin: auto;
     margin-top: 5px;
     padding: 7px;
     background-color:#e7f2ff;

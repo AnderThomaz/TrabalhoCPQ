@@ -52,6 +52,7 @@ div#logo {
 
 
 section {
+    box-sizing:border-box ;
     margin: auto;
     width: 90%;
     background-color: white;
@@ -62,7 +63,13 @@ section {
 }
 
 footer {
+
+    height: 150px;
     text-align: center;
     padding: 10px;
     color: white;
+}
+
+footer p { 
+    margin-top: 50px;
 }

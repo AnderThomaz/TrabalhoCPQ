@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Pacientes</title>
+    
     <link rel="stylesheet" href="css/stylec.css" >
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/estilomobile.css" >
+    <link rel="shortcut icon" href="img/cropped-favicon2-32x32.png" type="image/x-icon">
     
 </head>
 
@@ -74,10 +76,10 @@
                <label for="ifone">Telefone:</label>
                <input type="tel" id="ifone" maxlength="11" minlength="10" required>
                 <br>
-               <label for="ifoneemer">Telefone de Emergencia:</label>
+               <label for="ifoneemer">Telefone de Emergência:</label>
                <input type="tel" id="ifoneemer" maxlength="11" minlength="10" required>
 
-            
+                <br>
                
                
 
@@ -100,13 +102,13 @@
                 <br>
                <label for="iuf">UF</label>
                <input type="text" id="iuf">
-
+                <br>
             <h3>
                 Dados Bancarios
             </h3>
 
                 <label for="ipix">Chave PIX:</label>
-                <input type="text" id="ipix">
+                <br>
                 <br>
 
                 <i>
@@ -120,6 +122,12 @@
                     <br>
                     <input type="checkbox" name="tipopix"> CNPJ
                 </i>
+                <br>
+                <br>
+                <input type="text" id="ipix" placeholder="Chave PIX" >
+                
+
+               
                 
                 <br>
                 <label for="ibank">Banco:</label>
@@ -128,17 +136,18 @@
                 <label for="iagencia">Agência:</label>
                 <input type="number" id="iagencia">
                 <br>
-                <label for="iconta">Conta bancaria:</label>
+                <label for="iconta">Conta bancária:</label>
                 <input type="number" id="iconta">
                 <br>
                 <label for="icontab">Tipo de conta:</label>
-                <br>
+                
                 <input type="radio" id="iconta" name="conta" value="Corrente"> Corrente
                 <input type="radio" id="iconta" name="conta" value="Poupança"> Poupança
 
             <h3>
                 Dados da Visita
             </h3>
+                <br>
             
                 <label for="iproto">Protocolo:</label>
                 <input type="text" id="iproto">
@@ -152,17 +161,17 @@
                 <label for="ivalor">Valor para reembolso:</label>
                 <input type="text" id="ivalor" placeholder="R$">
                 <br>
-                <label for="ipp">Visita IPP?</label>
-                <i>
-                    <input type="checkbox" name="ipp"> Sim
-                    <input type="checkbox" name="ipp"> Não
-                </i>
+                <label for="ipp">Visita IPP?    </label>
+                
+                    <input type="radio" name="ipp"> Sim
+                    <input type="radio" name="ipp"> Não
+                
 
             </i>
             
             <h3>Informações Extras</h3>
                 
-                
+                <br>
                     
                     
                         <div class="extras">
@@ -171,28 +180,8 @@
                             <input type="radio" name="infextra"> Não
                             <input type="radio" name="infextra"> NA
                         </div>
+                <br>
                 
-
-            
-
-
-
-
-
-
-            
-
-            
-            
-
-               
-
-               
-
-
-
-
-               
 
 
 
@@ -208,6 +197,7 @@
     <footer>
         <p>Formulario criado por Anderson Thomaz </p>
     </footer>
-    
+
+    <script src="js/buscacep.js"></script>
 </body>
 </html>

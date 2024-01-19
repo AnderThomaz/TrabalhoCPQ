@@ -64,12 +64,15 @@ section {
 
 footer {
 
-    height: 150px;
+    height: 100px;
     text-align: center;
     padding: 10px;
     color: white;
+    margin-top: 50px;
 }
 
-footer p { 
+footer p a { 
     margin-top: 50px;
+    text-decoration: none;
+    color: white;
 }

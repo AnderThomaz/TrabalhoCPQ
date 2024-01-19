@@ -42,20 +42,20 @@
     <main>
         <section>
                 <h2>Dados do Participante</h2>
-            <form action="" method="post" autocomplete="on">
+            <form action="cad.php" method="post" autocomplete="on">
                
                    <label for="inome">Nome</label>
-                   <input type="text" id="inome" >
+                   <input type="text" name="nome" id="inome" >
                
                <br>
                
                    <label for="isobrenome">Sobrenome</label>
-                   <input type="text" id="isobrenome" >
+                   <input type="text" name="Sobrenome" id="isobrenome" >
                
                <br>
                
                    <label for="isocialname">Nome Social</label>
-                   <input type="text" id="isocialname">
+                   <input type="text" name="NomeSocial" id="isocialname">
                
                <br>
                
@@ -65,7 +65,7 @@
                <input type="radio" id="isexo" name="sexo" value="Feminino"> Feminino
                <br>
                <label for="irg">RG</label>
-               <input type="text" id="irg" required maxlength="9">
+               <input type="text" id="irg" maxlength="9">
                <br>
                <label for="icpf">CPF</label>
                <input type="text" id="icpf" maxlength="11">
@@ -74,10 +74,10 @@
                <input type="email" id="iemail">
                 <br>
                <label for="ifone">Telefone</label>
-               <input type="tel" id="ifone" maxlength="11" minlength="10" required>
+               <input type="tel" id="ifone" maxlength="11" minlength="10" >
                 <br>
                <label for="ifoneemer">Telefone de Emergência</label>
-               <input type="tel" id="ifoneemer" maxlength="11" minlength="10" required>
+               <input type="tel" id="ifoneemer" maxlength="11" minlength="10" >
 
                 <br>
                

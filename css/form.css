@@ -73,6 +73,22 @@ form > input[type=date] {
     background-color:#EAEEFA;
     border: none;
     border-radius: 10px;
+}
+
+form p label  {
+    margin: 25px;
+}
+form p select {
+    display:block;
+    font-size: .9em;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+
+    background-color:#EAEEFA;
+    border: none;
+    border-radius: 10px;
 }    
 
 
